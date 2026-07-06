@@ -2,6 +2,10 @@
 
 Python Tkinter inventory management app with SQLite storage and PDF bill generation.
 
+## Workflow Visual
+
+![Inventory App workflow](docs/screenshots/workflow.svg)
+
 ## What It Does
 
 - Login/dashboard based desktop workflow.
@@ -28,11 +32,10 @@ utils/
 
 ## Setup
 
+Use a Python build with Tkinter support. On macOS, Apple system Python usually includes Tkinter:
+
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python main.py
+/usr/bin/python3 main.py
 ```
 
 On Windows:
@@ -45,6 +48,21 @@ python main.py
 ```
 
 The app initializes `db/inventory.db` on first run.
+
+Default demo users:
+
+| Role | Username | Password |
+| --- | --- | --- |
+| Admin | `admin` | `admin123` |
+| Billing | `billing` | `bill123` |
+| Inventory | `stockman` | `stock123` |
+
+## Validation
+
+```bash
+python -m py_compile main.py modules/*.py gui/*.py utils/*.py
+python -c "from modules.db_init import init_db; init_db(); print('db ok')"
+```
 
 ## What I Learned
 

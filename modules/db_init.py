@@ -1,8 +1,10 @@
 # modules/db_init.py
 
 import sqlite3
+from pathlib import Path
 
 def init_db():
+    Path("db").mkdir(exist_ok=True)
     conn = sqlite3.connect('db/inventory.db')
     c = conn.cursor()
 

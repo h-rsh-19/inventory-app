@@ -1,0 +1,49 @@
+<svg width="1120" height="560" viewBox="0 0 1120 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Inventory App workflow">
+  <rect width="1120" height="560" fill="#f8fafc"/>
+  <text x="56" y="64" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#0f172a">Inventory App Workflow</text>
+  <text x="56" y="98" font-family="Arial, sans-serif" font-size="16" fill="#475569">Tkinter desktop app with SQLite persistence, product management, billing, and PDF generation.</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="56" y="150" width="210" height="118" rx="10" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="82" y="194" font-size="22" font-weight="700" fill="#0f172a">Login</text>
+    <text x="82" y="224" font-size="15" fill="#475569">Role-based access</text>
+    <text x="82" y="248" font-size="15" fill="#475569">admin / billing / inventory</text>
+
+    <rect x="326" y="150" width="210" height="118" rx="10" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="352" y="194" font-size="22" font-weight="700" fill="#0f172a">Dashboard</text>
+    <text x="352" y="224" font-size="15" fill="#475569">Role-specific actions</text>
+    <text x="352" y="248" font-size="15" fill="#475569">Navigation hub</text>
+
+    <rect x="596" y="150" width="210" height="118" rx="10" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="622" y="194" font-size="22" font-weight="700" fill="#0f172a">Products</text>
+    <text x="622" y="224" font-size="15" fill="#475569">Add, edit, track stock</text>
+    <text x="622" y="248" font-size="15" fill="#475569">SQLite-backed records</text>
+
+    <rect x="856" y="150" width="210" height="118" rx="10" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="882" y="194" font-size="22" font-weight="700" fill="#0f172a">Billing</text>
+    <text x="882" y="224" font-size="15" fill="#475569">Sales entries</text>
+    <text x="882" y="248" font-size="15" fill="#475569">Invoice/PDF output</text>
+
+    <rect x="326" y="340" width="210" height="118" rx="10" fill="#ecfeff" stroke="#06b6d4"/>
+    <text x="352" y="384" font-size="22" font-weight="700" fill="#0f172a">SQLite DB</text>
+    <text x="352" y="414" font-size="15" fill="#475569">users, products</text>
+    <text x="352" y="438" font-size="15" fill="#475569">purchases, sales</text>
+
+    <rect x="596" y="340" width="210" height="118" rx="10" fill="#f0fdf4" stroke="#22c55e"/>
+    <text x="622" y="384" font-size="22" font-weight="700" fill="#0f172a">Reports</text>
+    <text x="622" y="414" font-size="15" fill="#475569">Stock and sales views</text>
+    <text x="622" y="438" font-size="15" fill="#475569">Printable records</text>
+
+    <path d="M266 209H326" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M536 209H596" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M806 209H856" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M431 268V340" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M701 268V340" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+  </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>
